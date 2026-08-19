@@ -56,3 +56,31 @@ The counter output is continuously checked against predefined thresholds. When a
 ## 🧠 Core Concepts
 
 `Sequential Logic` · `Counters` · `Digital Comparators` · `Combinational Logic` · `Clock Control` · `Digital Displays`
+
+---
+
+## 🖥️ Simulation
+
+The complete system was designed and simulated using **Logisim**.
+
+The simulation demonstrates:
+
+- Multi-stage digital counting
+- Three-digit display output
+- Speed-limit comparison
+- Over-speed detection
+- Clock-control logic
+
+> **Note:** The clock is used as a simulated speed input. The project does not use a physical vehicle-speed sensor.
+
+---
+
+## 🎥 Demo
+
+See the system running in Logisim:
+
+<p align="center">
+  <a href="car-speed-monitoring-demo.mp4">
+    <strong>▶️ Watch the Simulation Demo</strong>
+  </a>
+</p>
