@@ -84,3 +84,17 @@ See the system running in Logisim:
     <strong>▶️ Watch the Simulation Demo</strong>
   </a>
 </p>
+
+---
+
+## 🔄 Working Principle
+
+<p align="center">
+  <img src="assets/working-principle.png" width="900" alt="Working principle of the car speed monitoring system">
+</p>
+
+**Clock → Counter → Display + Comparator → Overspeed → Clock Stop**
+
+The system counts incoming clock pulses and displays the current count. The counter output is simultaneously compared against predefined speed limits.
+
+When an overspeed condition is detected, the logic activates the alert and disables the clock input, stopping the counter at the detected value.
