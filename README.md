@@ -37,3 +37,22 @@ Built as part of the **Digital Electronics Design (25ECSF101)** course activity,
 Clock pulses are used as the simulated speed input. The counter tracks these pulses while the display shows the current value.
 
 The counter output is continuously checked against predefined thresholds. When a limit violation is detected, the control logic disables further clock pulses, stopping the count and activating the alert indication.
+
+---
+
+## 🔧 Built With
+
+| Component | Role |
+|---|---|
+| **Logisim** | Digital circuit simulation |
+| **Counters** | Count incoming clock pulses |
+| **Comparators** | Check predefined speed thresholds |
+| **OR Logic** | Combine limit-detection signals |
+| **Digital Displays** | Show the measured value |
+| **LED Indicator** | Signal an over-speed condition |
+
+---
+
+## 🧠 Core Concepts
+
+`Sequential Logic` · `Counters` · `Digital Comparators` · `Combinational Logic` · `Clock Control` · `Digital Displays`
