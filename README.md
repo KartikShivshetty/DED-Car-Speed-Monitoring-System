@@ -98,3 +98,36 @@ See the system running in Logisim:
 The system counts incoming clock pulses and displays the current count. The counter output is simultaneously compared against predefined speed limits.
 
 When an overspeed condition is detected, the logic activates the alert and disables the clock input, stopping the counter at the detected value.
+
+---
+
+## 🚀 Future Improvements
+
+- Integrate a real speed sensor
+- Add programmable speed limits
+- Add buzzer or visual warning alerts
+- Replace the simulated clock with physical sensor input
+- Implement the system on a microcontroller or FPGA
+- Add speed violation logging
+
+---
+
+## 📄 Project Report
+
+For the complete academic documentation, see:
+
+**[📘 Digital Electronics Design Project Report](report/Kartik%20S%20S%20DED%20report.pdf)**
+
+---
+
+## 👨‍💻 Author
+
+**Kartik S Shivshetty**
+
+Computer Science & Engineering  
+KLE Technological University
+
+**Roll No.:** 632  
+**SRN:** 01FE25BCS387
+
+*Digital Electronics Design — 2025–26*
